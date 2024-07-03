@@ -29,6 +29,7 @@
       border-radius: 20px;
       color: white;
       font-weight: bold;
+      cursor: pointer;
    }
   </style>
 </head>
@@ -37,11 +38,9 @@
     <h2 class="head">
       My First Web Application : Ask Traffic
     </h2>
-    <div>
-      <form action="/" method "post">
-        <input class="search-bar" type="text-box" placeholder="May I know your name?">
-        <p><input type="Submit" value="Enter" class="button"></p>
-    </div>
+    <form action="/main" method="post">
+      <p><input class="search-bar" type="text" placeholder="May I know your name?" name="q"></p>
+      <p><input type="submit" value="Enter" class="button"></p>
     </form>
   </div>
 
